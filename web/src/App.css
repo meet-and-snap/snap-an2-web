@@ -1,0 +1,32 @@
+.App {
+  text-align: center;
+  display: flex;
+  min-height: 100vh;
+  align-content: center;
+  justify-content: center;
+
+}
+
+
+.form-container,.login-form,.register-form{
+display:flex;
+flex-direction: column;
+}
+.form-container{
+  padding: 5rem;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+label{
+  text-align: left;
+  padding: 1px;
+}
+input{
+  border-radius: 10px;
+}
+
+button{
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
